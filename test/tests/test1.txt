@@ -1,0 +1,18 @@
+
+test1.o:     file format elf32-tradlittlemips
+
+
+Disassembly of section .text:
+
+00000000 <.text>:
+   0:	24100020 	li	s0,32
+   4:	22080008 	addi	t0,s0,8
+   8:	01104020 	add	t0,t0,s0
+   c:	38110008 	xori	s1,zero,0x8
+  10:	00119083 	sra	s2,s1,0x2
+  14:	24130005 	li	s3,5
+  18:	02722004 	sllv	a0,s2,s3
+  1c:	3c138000 	lui	s3,0x8000
+  20:	0260282a 	slt	a1,s3,zero
+  24:	21080007 	addi	t0,t0,7
+	...
